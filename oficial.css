@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@700&family=Oswald:wght@300;400&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@700&family=Oswald:wght@300;400&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Oswald:wght@300;400&family=Poppins:wght@300&family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Oswald:wght@300;400&family=Poppins:wght@300&family=Roboto+Condensed:ital@1&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1f1f1f;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(images/real\ banner.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 34px;
+    color: #9e2932;
+    font-weight: 800;
+    text-transform: uppercase;  
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: #cf2d3a;
+
+}
+
+#menu {
+    display: none;
+}
+
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.header-txt h1, span, h3 {
+    font-size: 110px;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: #a82732;
+    margin-bottom: 15px; 
+}
+
+.header-txt span {
+    font-size: 25px;
+}
+
+.header-txt p {
+    color: #afafaf;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #d82e37;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif, cursive;
+    margin: 25px 0;
+    border: 0;
+}
+
+.btn-1:hover {
+    background-color: #721e24;
+}
+
+.header-dir {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dir h3 {
+    font-size: 18px;
+}
+
+.dir p {
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.welcome {
+    display: flex;
+}
+
+.welcome-1 {
+    background-image: url(images/auto\ banner\ de\ fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    
+}
+
+.welcome-2 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+
+h2 {
+    font-size: 90px;
+    line-height: 100px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #afafaf;
+    margin: 25px 0;
+    letter-spacing: 0.2px;
+}
+
+.b1 {
+    color: #9e2932 !important;
+    letter-spacing: 1px;
+}
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+hr {
+    border: 1px solid #9e2932;
+    width: 80px;
+}
+
+.services-txt p {
+    padding: 50px 150px;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.services-1 {
+    background-color: #070707;
+    padding: 35px 25px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.services-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.services-1 a {
+    color: #9e2932;
+    font-size: 16px;
+}
+
+.prices {
+    display: flex;   
+}
+
+.prices-1 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+
+table {
+    margin: 50px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #afafaf;
+    margin-bottom: 20px;
+}
+
+th {
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+td {
+    color: #9e2932;
+}
+
+.prices-2 {
+    background-image: url(images/puliendo.img1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.personal {
+    padding: 100px 0;
+    text-align: center;
+}
+.personal-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.personal-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.personal-1 {
+    text-align: center;
+}
+
+.personal-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.personal-1 h3 {
+    font-size: 22px;
+}
+
+.personal-1 p {
+    padding: 0 50px;
+}
+
+.personal-1 a {
+    color: #9e2932;
+}
+
+.footer-bg {
+    background-image: url(images/interior-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-1 {
+    margin-bottom: 15px;
+}
+
+.campo {
+    margin: 5px;
+    padding: 20px 15px ;
+    width: 250px;
+    background-color: #0e0e0e;
+    border: 1px solid #9e2932;
+    outline: none;
+    border-radius: 14px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+textarea {
+    width: 515px !important;
+}
+
+.footer-txt {
+    text-align: center;
+    padding: 10px;
+    background-color: #070707;
+    font-size: 18px;
+}
+
+.btn-2 {
+    color: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1f1f1f;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+        margin-bottom: 15px;
+    }
+
+    .header-txt h1 {
+        font-size: 90px;
+    }
+
+    .header-txt p {
+        padding: 0px;
+        margin: 15px 0;
+    }
+
+    .header-dir {
+        flex-direction: column;
+    }
+
+    .dir p {
+        font-size: 18px;
+    }
+
+    .welcome {
+        flex-direction: column;
+    }
+
+    .welcome-1 {
+        display: none;
+    }
+
+    .welcome-2 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    p {
+        margin: 15px 0;
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-txt p {
+        padding: 0;
+    }
+
+    .services-group {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .services-1 {
+        margin: 0 0 25px 0;
+    }
+
+    .prices {
+        flex-direction: column;
+    }
+
+    .prices-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    table {
+        margin: 25px 0 0 0;
+    }
+
+    .prices-2 {
+        display: none;
+    }
+
+    .personal {
+        padding: 30px;
+    }
+
+    .personal-group {
+        flex-direction: column;
+        margin-bottom: 0;
+        
+    }
+
+    .personal-1 {
+        margin-bottom: 25px;
+    }
+
+    .footer-bg {
+        padding: 30px;
+    }
+
+    textarea {
+        width: 250px !important; 
+    }
+} 
