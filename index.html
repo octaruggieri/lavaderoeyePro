@@ -198,7 +198,7 @@
             <div class="personal-group">
 
                 <div class="personal-1">
-                    <img src="images/eric2.jpg" alt="">
+                    <img src="images/foto de eric rari 2.jpg" alt="">
                     <h3>Eric</h3>
                     <p>
                         Eric, de 22 años, es el fundador de la empresa y tiene una 
@@ -209,7 +209,7 @@
                     <a href="https://linktab.co/lavaderoeye">Saber más</a>
                 </div>
                 <div class="personal-1">
-                    <img src="images/octi2.jpg" alt="">
+                    <img src="images/octis1.jpg" alt="">
                     <h3>Octa</h3>
                     <p>
                         Octa, de 19 años, siempre ha buscado formas de mejorar la apariencia 
@@ -240,17 +240,19 @@
             <div class="footer-bg">
                 <h2>Reserva tu lavado</h2>
                 <form>
-                    <div class="campo-1">
-                        <input class="campo" type="text" placeholder="Nombre">
-                        <input class="campo" type="number" placeholder="Telefono">
-                    </div>
-                    <div class="campo-1">
-                        <input class="campo" type="text" placeholder="Dirección">
-                        <input class="campo" type="mail" placeholder="Tipo de lavado">
-                    </div>
-                    <textarea class="campo" cols="30" rows="10" placeholder="Detalles para el lavado o consultas"></textarea>
-                    <input type="submit" value="Enviar" class="btn-1">
-                </form>
+                    <form>
+                        <div class="campo-1">
+                            <input class="campo" type="text" id="nombre" placeholder="Ingrese su nombre" autocomplete="off">
+                            <input class="campo" type="number" id="telefono" placeholder="Ingrese su número de telefono" autocomplete="off">
+                        </div>
+                        <div class="campo-1">
+                            <input class="campo" type="text" id="dirección" placeholder="Ingrese su Dirección" autocomplete="off">
+                            <input class="campo" type="mail" id="lavado" placeholder="Tipo de lavado elegido" autocomplete="off">
+                        </div>
+                        <textarea class="campo" cols="30" rows="10" id="mensaje" placeholder="Detalles para el lavado"></textarea>
+                        <input id="send" type="submit" value="Enviar" class="btn-1">
+                    </form>
+                <script src="formulario.js"></script>
             </div>
             <div class="footer-txt">
                 <p>
@@ -263,6 +265,6 @@
             </div>
         </footer>
 
-     
+
 </body>
 </html>
