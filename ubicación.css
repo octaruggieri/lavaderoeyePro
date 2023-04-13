@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 34px;
+    color: #9e2932;
+    font-weight: 800;
+    text-transform: uppercase;  
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: #cf2d3a;
+
+}
+
+#menu {
+    display: none;
+}
+
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-dir {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dir h3 {
+    font-size: 18px;
+}
+
+.dir p {
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.welcome {
+    display: flex;
+}
+
+.footer-txt {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    font-size: 18px;
+    color: #ffffff;
+    word-spacing: 1px;
+}
+
+.btn-2 {
+    color: #ffffff;
+}
+
+#mapa {
+    max-width: 100%;
+    height: 450px; /* Ajuste la altura según sea necesario */
+    margin: 100px auto 50px; /* Ajuste los márgenes superior e inferior según sea necesario */
+    display: block; /* Asegura que el elemento se muestre como un bloque */
+  }
+
+  #mapa-contenedor {
+    max-width: 100%;
+    margin: 0 auto; /* Centra horizontalmente el elemento */
+    display: block; /* Asegura que el elemento se muestre como un bloque */
+  }
+  
+
+  body {
+    max-width: 100%;
+  }
