@@ -93,6 +93,7 @@ body {
     font-size: 18px;
     color: #ffffff;
     word-spacing: 1px;
+    margin-top: 50px;
 }
 
 .btn-2 {
@@ -101,18 +102,182 @@ body {
 
 #mapa {
     max-width: 100%;
-    height: 450px; /* Ajuste la altura según sea necesario */
-    margin: 100px auto 50px; /* Ajuste los márgenes superior e inferior según sea necesario */
-    display: block; /* Asegura que el elemento se muestre como un bloque */
+    height: 450px; 
+    margin: 100px auto 50px;
+    display: block; 
   }
 
   #mapa-contenedor {
     max-width: 100%;
-    margin: 0 auto; /* Centra horizontalmente el elemento */
-    display: block; /* Asegura que el elemento se muestre como un bloque */
+    margin: 0 auto; 
+    display: block; 
   }
   
 
   body {
     max-width: 100%;
   }
+
+/* Estilos para pantallas grandes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    height: 100px 40px ;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.header-dir {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dir h3 {
+    font-size: 18px;
+}
+
+.dir p {
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer-txt {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    font-size: 18px;
+    color: #ffffff;
+    word-spacing: 1px;
+    margin-top: 50px;
+}
+
+#mapa {
+    max-width: 100%;
+    height: 450px; 
+    margin: 100px auto 50px;
+    display: block; 
+  }
+
+  #mapa-contenedor {
+    max-width: 100%;
+    margin: 0 auto; 
+    display: block; 
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+/* Estilos para pantallas medianas */
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 960px;
+        padding: 0 15px;
+    }
+
+    .menu {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .menu .navbar ul li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .dir h3 {
+        font-size: 16px;
+    }
+
+    .dir p {
+        font-size: 20px;
+    }
+
+    .footer-txt {
+        margin-top: 30px;
+    }
+
+    #mapa {
+        margin: 50px auto 30px;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .menu {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu .navbar ul li a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .dir h3 {
+        font-size: 14px;
+    }
+
+    .dir p {
+        font-size: 18px;
+    }
+
+    .footer-txt {
+        margin-top: 20px;
+    }
+
+    #mapa {
+        margin: 30px auto 20px;
+    }
+}
+
+/* Estilos para pantallas muy pequeñas */
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .menu {
+        padding: 5px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+   
+}
