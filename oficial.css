@@ -121,7 +121,7 @@ body {
 .btn-3 {
     display: inline-block;
     padding: 1px 2px;
-    background-color: #e6cd7d;
+    background-color: #ffdc6b;
     color: #020202;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -509,4 +509,27 @@ html{
     textarea {
         width: 250px !important; 
     }
-} 
+
+    @media (max-width: 767px) {
+        .btn-1 {
+            font-size: 14px;
+            padding: 8px 16px;
+        }
+        .btn-3 {
+            font-size: 12px;
+            padding: 4px 8px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
