@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@700&family=Oswald:wght@300;400&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto+Condensed:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Oswald:wght@300;400&family=Poppins:wght@300&family=Roboto+Condensed:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Oswald:wght@300;400&family=Poppins:wght@300&family=Roboto+Condensed:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&family=Secular+One&display=swap');
 
 
 *{
@@ -117,6 +117,21 @@ body {
     margin: 25px 0;
     border: 0;
 }
+
+.btn-3 {
+    display: inline-block;
+    padding: 1px 2px;
+    background-color: #e6cd7d;
+    color: #020202;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    font-family: 'Secular One', sans-serif;
+    margin: 10px 15;
+    border-radius: 10px;
+    
+}
+
 
 .btn-1:hover {
     background-color: #721e24;
@@ -258,7 +273,8 @@ th {
 }
 
 td {
-    color: #9e2932;
+    color: #c73c47;
+    word-spacing: 12px;
 }
 
 .prices-2 {
